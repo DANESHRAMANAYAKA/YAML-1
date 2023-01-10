@@ -1,6 +1,4 @@
-Yaml Tutorial | Learn YAML in 18 mins TechWorld with Nana
-
-
+---
 # <- yaml supports comments, json does not
 # did you know you can embed json in yaml?
 # try uncommenting the next line
@@ -29,6 +27,6 @@ content: |-
    can auto
    convert line breaks
    to save space
-alias: &foo
-  bar: baz
-alias_reuse: *foo 
+alias: &foo //key value pairs 
+  bar: baz //key value pairs 
+alias_reuse: *foo //key value pairs 
